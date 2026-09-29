@@ -23,6 +23,16 @@ around obstacles, and never leaves a safe driving corridor. It does this **witho
 
 ---
 
+## Demo video
+
+<p align="center">
+  <a href="docs/videos/demo.mp4"><img src="docs/images/demo_poster.png" width="820" alt="Demo video: the cart driving itself on the GIU campus"></a>
+</p>
+
+<p align="center"><b><a href="docs/videos/demo.mp4">▶ Play the demo video (4:10)</a></b>: an autonomous campus run seen from the driver's seat.</p>
+
+---
+
 ## Key results
 
 Measured on real campus runs, computed from the vehicle's 50 Hz control logs.
@@ -42,6 +52,7 @@ Measured on real campus runs, computed from the vehicle's 50 Hz control logs.
 
 ## Contents
 
+- [Demo video](#demo-video)
 - [The system at a glance](#the-system-at-a-glance)
 - [The challenge: driving without GPS](#the-challenge-driving-without-gps)
 - [The vehicle](#the-vehicle)
@@ -435,7 +446,7 @@ motivates adding encoders.
 ├── Fdirection map  top/, Rdirection top map/,
 │   danger zone map files/                      Raw LiDAR-mapping exports the maps are built from
 ├── include/, raylib-5.0_win64_mingw-w64/       Third-party headers and the Raylib graphics library
-├── docs/images/                                Figures used in this README
+├── docs/images/, docs/videos/                  Figures and the demo video used in this README
 ├── REQUIREMENTS.md                             Everything needed to install and run the system
 └── CMakeLists.txt                              Build configuration
 ```
