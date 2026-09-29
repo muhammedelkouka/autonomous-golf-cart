@@ -1,0 +1,7 @@
+# Treat map/point-cloud and other binary assets as binary — never apply
+# line-ending (CRLF) conversion, which would corrupt binary PLY files.
+*.ply binary
+*.png binary
+*.exe binary
+*.pcap binary
+*.bin binary
