@@ -31,6 +31,18 @@ around obstacles, and never leaves a safe driving corridor. It does this **witho
 
 <p align="center"><b><a href="docs/videos/demo.mp4">▶ Play the demo video (4:10)</a></b>: an autonomous campus run seen from the driver's seat.</p>
 
+### Short demo (39 s)
+
+<p align="center">
+  <img src="docs/images/demo_short.webp" width="340" alt="Short demo: the cart driving itself on the GIU campus">
+</p>
+
+<p align="center">
+  Silent preview, plays automatically.<br>
+  <a href="docs/videos/demo_short.mp4">Download the short demo with sound (39 s, 7 MB)</a> ·
+  <a href="docs/videos/demo.mp4">Download the full journey (4:10, 60 MB)</a>
+</p>
+
 ---
 
 ## Key results
